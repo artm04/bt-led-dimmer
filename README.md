@@ -1,4 +1,4 @@
-### Bluetooth LED dimmer on Arduino UNO ###
+### BT LED Dimmer ###
 Project with firmware for Arduino UNO and applications for controlling it via bluetooth.
 
 You can manage your LED on PWM using app which connects to HC-06 module. 
@@ -20,7 +20,7 @@ Connect RX and TX **only** after uploading the firmware and shutdown. Otherwise,
 | LED +           | ~11         |
 | LED -           | GND         |
 
-## Installing the app for Android ##
+## App ##
 The dimmer project includes a Bluetooth connection and control application for Android. 
 The app was created using AppInventor.
 
@@ -30,7 +30,7 @@ _Before proceeding, make sure installation from unknown sources is enabled on An
 2. Open file from your phone.
 3. Click "Install" and then "Open" to launch it.
 
-## How to use ##
+## Instructions ##
 1. When you install the app, make sure that everything is properly connected.
 2. Open the Bluetooth settings.
 3. Select HC-06 device in list and connect to it.
@@ -38,7 +38,7 @@ _Before proceeding, make sure installation from unknown sources is enabled on An
 5. Click Search Devices. The HC-06 device will be shown. Click on it to select.
 6. As soon as the State under the slider says "Connected", you can control the brightness using the slider.
 
-## AppInventor project ##
+## AppInventor ##
 You can also check out app on 
 [AppInventor Gallery](https://gallery.appinventor.mit.edu/?galleryid=847a7e4b-ad58-449a-a7a8-52a7ec9c2327). 
 If you want to see code of app and change it - please click "Load App Into MIT App Inventor". You can also contribute by
